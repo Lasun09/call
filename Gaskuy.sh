@@ -1,9 +1,11 @@
+
 #!bin/bash
 clear
 echo "****************************"
 
 echo "____________________________"
-echo "PEMBUAT Uzii/Lasun ID,KONTAK 083100518970"
+echo "PEMBUAT : Uzii/Lasun"
+echo "KONTAK : 083100518970"
 echo "____________________________"
 echo "****************************"
 figlet Telp | lolcat
@@ -20,4 +22,8 @@ read -p "Masukan No Target contoh:89528100123  : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 else
-echo "thanks ya lurd udah pakai tools Lasun
+echo "thanks ya lurd udah pakai tools Lasun"
+echo "kontak admin?083100518970"
+exit
+fi
+echo
